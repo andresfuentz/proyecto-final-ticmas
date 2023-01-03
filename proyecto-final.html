@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/estilos.css" />
+
+    <!-- BS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- Icons -->
+    <script
+      src="https://kit.fontawesome.com/94b3545e21.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Proyecto Final - Front End Academy Ticmas 2022</title>
+  </head>
+  <body class="font-monospace">
+    <!-- nav tabs -->
+    <ul
+      class="nav nav-tabs nav-fill sticky-top bg-white mx-2 pt-2"
+      id="tablist-1"
+      role="tablist"
+    >
+      <li class="nav-item" role="presentation">
+        <a
+          class="nav-link active"
+          id="tab-inicio"
+          data-bs-toggle="tab"
+          href="#tabs-inicio"
+          role="tab"
+          aria-controls="tabs-inicio"
+          aria-selected="true"
+        >
+          <small><strong>Info</strong></small>
+        </a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a
+          class="nav-link"
+          id="tab-info"
+          data-bs-toggle="tab"
+          href="#tabs-info"
+          role="tab"
+          aria-controls="tabs-info"
+          aria-selected="true"
+        >
+          <small><strong>Educación</strong></small>
+        </a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a
+          class="nav-link"
+          id="tab-proy"
+          data-bs-toggle="tab"
+          href="#tabs-proy"
+          role="tab"
+          aria-controls="tabs-proy"
+          aria-selected="true"
+        >
+          <small><strong>Experiencia</strong></small></a
+        >
+      </li>
+    </ul>
+    <!-- nav tabs -->
+
+    <!-- nav content -->
+    <div class="tab-content" id="tab-content-1">
+      <!-- inicio -->
+      <div
+        class="tab-pane fade show active"
+        id="tabs-inicio"
+        role="tabpanel"
+        aria-labelledby="tab-inicio"
+      >
+        <div class="row border border-top-0 border-muted mx-2 mb-2 p-1">
+          <div class="col-6 mx-auto my-1 pt-2">
+            <img
+              class="rounded-circle w-100"
+              src="src/img-perfil.jpg"
+              alt="img-perfil"
+            />
+          </div>
+
+          <h1 class="text-center mt-2">Guillermo Andrés Fuentes</h1>
+          <p class="text-muted text-center">Front End Developer</p>
+
+          <div class="row text-center mx-auto pt-3">
+            <div class="col">
+              <h1>
+                <a
+                  href="mailto:andresfuentz@gmail.com"
+                  class="fa-regular fa-at"
+                  id="no-decoration"
+                ></a>
+              </h1>
+            </div>
+            <div class="col">
+              <h1>
+                <a
+                  href="http://www.linkedin.com/in/andresfuentes-/"
+                  class="fa-brands fa-linkedin"
+                  target="_blank"
+                  id="no-decoration"
+                ></a>
+              </h1>
+            </div>
+            <div class="col">
+              <h1>
+                <a
+                  href="http://github.com/andresfuentz"
+                  class="fa-brands fa-github"
+                  target="_blank"
+                  id="no-decoration"
+                ></a>
+              </h1>
+            </div>
+          </div>
+
+          <div>
+            <hr />
+          </div>
+
+          <p class="mt-2">
+            Hola! Soy Guillermo Andrés Fuentes de Entre Ríos, Argentina 👋👋 y
+            actualmente me encuentro en carrera como
+            <strong>Desarrollador Web Front-End</strong>.<br /><br />
+            Soy una persona proactiva y con capacidad para trabajar en equipo y
+            ganas de seguir superándome, aprendiendo día a día.<br /><br />
+            Apasionado por la tecnología web, a la espera de mi primera
+            oportunidad laboral IT.<br /><br />
+            Cuento con un curso en programación Java pero mi principal fuente de
+            conocimiento es internet!
+          </p>
+        </div>
+      </div>
+
+      <!-- info -->
+      <div
+        class="tab-pane fade"
+        id="tabs-info"
+        role="tabpanel"
+        aria-labelledby="tab-info"
+      >
+        <div class="row border border-top-0 border-muted mx-2 mb-2 p-1">
+          <div class="card border-0 px-2 pb-2">
+            <div class="card-header text-center border mt-2">
+              <h5>Programación Java</h5>
+              <a
+                href="https://www.itmaster.com.ar/carreras/programador-java"
+                target="_blank"
+                id="no-decoration"
+              >
+                <small class="text-muted">ITMaster Academy</small>
+              </a>
+            </div>
+            <div class="card-body p-1">
+              <p class="mt-2">
+                ITMaster Academy es un instituto con mas de 15 años en la
+                formación de nuevos programadores.
+              </p>
+
+              <div class="card-header border rounded-top text-center p-0">
+                <small>Conocimientos adquiridos:</small>
+              </div>
+
+              <!-- collapses -->
+
+              <!-- collapse - fundamentos java -->
+              <div
+                class="d-flex justify-content-between border border-top-0 p-2"
+                role="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFundamentosJava"
+                aria-expanded="false"
+                aria-controls="collapseFundamentosJava"
+                name="collapse-datos-ed"
+              >
+                <div>Fundamentos de Java</div>
+                <div>[+]</div>
+              </div>
+              <div class="collapse" id="collapseFundamentosJava">
+                <div class="border border-top-0 pt-2">
+                  <ul>
+                    <li>Introducción a la tecnología y al lenguaje.</li>
+                    <li>
+                      Variables primitivas, operadores, decisiónes, arreglos y
+                      bucles.
+                    </li>
+                    <li>Métodos y sobrecarga.</li>
+                    <li>Genéricos y colecciones.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- collapses  - fundamentos obj -->
+              <div
+                class="d-flex justify-content-between border border-top-0 p-2"
+                role="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFundamentosObjetos"
+                aria-expanded="false"
+                aria-controls="collapseFundamentosObjetos"
+                name="collapse-datos-ed"
+              >
+                <div>Fundamentos de Objetos</div>
+                <div>[+]</div>
+              </div>
+
+              <div class="collapse" id="collapseFundamentosObjetos">
+                <div class="border border-top-0 pt-2">
+                  <ul>
+                    <li>Pensando con Objetos.</li>
+                    <li>Encapsulación y constructores.</li>
+                    <li>Manejando errores (Excepciones).</li>
+                    <li>Sintaxis y Clases.</li>
+                    <li>Polimorfismo.</li>
+                    <li>Diseño de Clases.</li>
+                    <li>Herencia con interfaces.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- collapses - java avanzado -->
+              <div
+                class="d-flex justify-content-between border border-top-0 p-2"
+                role="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseJavaAvanzado"
+                aria-expanded="false"
+                aria-controls="collapseJavaAvanzado"
+                name="collapse-datos-ed"
+              >
+                <div>Java Avanzado y MySQL</div>
+                <div>[+]</div>
+              </div>
+
+              <div class="collapse" id="collapseJavaAvanzado">
+                <div class="border border-top-0 pt-2">
+                  <ul>
+                    <li>Excepciones y Aserciones.</li>
+                    <li>Fundamentos de Entrada/Salida.</li>
+                    <li>Trabajando con archivos.</li>
+                    <li>Hilos y Concurrencia.</li>
+                    <li>Conexión de Datos con JDBC.</li>
+                    <li>Introducción a MySQL.</li>
+                    <li>Cliente y Servidor MySQL.</li>
+                    <li>Conceptos de Bases de Datos.</li>
+                    <li>Diseño de Bases de Datos.</li>
+                    <li>Creación de Bases y Tablas.</li>
+                    <li>Consultas Básicas.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- proy -->
+      <div
+        class="tab-pane fade"
+        id="tabs-proy"
+        role="tabpanel"
+        aria-labelledby="tab-proy"
+      >
+        <div class="row border border-top-0 border-muted mx-2 mb-2 p-1">
+          <div class="card border-0 px-2 pb-2">
+            <p class="mt-2 p-0">No cuento con experiencia en el sector IT, pero podés ver mis proyectos aquí abajo!</p>
+
+            <div class="card-header border rounded-top text-center mt-2 p-0">
+              <small>Proyectos desarrollados:</small>
+            </div>
+            
+              <!-- collapses -->
+              <!-- collapse - the movie list -->
+              <div
+                class="d-flex justify-content-between border border-top-0 p-2"
+                role="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseMovieList"
+                aria-expanded="false"
+                aria-controls="collapseMovieList"
+                name="collapse-datos-ex"
+              >
+                <div>The Movie List</div>
+                <div>[+]</div>
+              </div>
+
+              <div class="collapse" id="collapseMovieList">
+                <div class="border border-top-0">
+                  <div class="text-center pt-3">
+                    <img src="src/themovielist.jpg" class="img-fluid border rounded w-50" alt="themovielist">
+                    <div class="mt-2">
+                      <small class="badge text-bg-secondary">ReactJS</small>
+                      <small class="badge text-bg-secondary">Bootstrap</small>
+                    </div>
+                  </div>
+                  <div class="mt-2 px-3">
+                    Aplicación realizada durante el skillup I de React de Alkemy Academy.<br />
+                    Consta de un login (Auth0) el cual, una vez obtenidas las credenciales, permite acceder
+                    a una lista de películas obtenidas desde una API (The Movie Database), ver detalles de las mismas
+                    y añadir/eliminar de favoritos.
+                  </div>
+                  <div class="m-3">
+                    <a
+                      href="https://github.com/andresfuentz/the-movie-list"
+                      target="_blank"
+                      class="btn btn-primary w-100 p-1"
+                    >
+                      Ver en GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- collapses  - tateti -->
+              <div
+                class="d-flex justify-content-between border border-top-0 p-2"
+                role="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTateti"
+                aria-expanded="false"
+                aria-controls="collapseTateti"
+                name="collapse-datos-ex"
+              >
+                <div>TA-TE-TI!</div>
+                <div>[+]</div>
+              </div>
+
+              <div class="collapse" id="collapseTateti">
+                <div class="border border-top-0">
+                  <div class="text-center pt-3">
+                    <img src="src/tateti.jpg" class="img-fluid border w-50" alt="tateti">
+                    <div class="mt-2">
+                      <small class="badge text-bg-secondary">HTML</small>
+                      <small class="badge text-bg-secondary">CSS</small>
+                      <small class="badge text-bg-secondary">JavaScript</small>
+                    </div>
+                  </div>
+                  <div class="mt-3 px-3">Un simple TA-TE-TI! (Tic Tae Toe! en Inglés) en HTML con JavaScript puro y CSS.</div>
+                  <div class="m-3">
+                    <a
+                      href="https://github.com/andresfuentz/TA-TE-TI"
+                      target="_blank"
+                      class="btn btn-primary w-100 p-1"
+                    >
+                      Ver en GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- collapses - lista de tareas -->
+              <div
+                class="d-flex justify-content-between border border-top-0 p-2"
+                role="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTodo"
+                aria-expanded="false"
+                aria-controls="collapseTodo"
+                name="collapse-datos-ex"
+              >
+                <div>Lista de Tareas</div>
+                <div>[+]</div>
+              </div>
+
+              <div class="collapse" id="collapseTodo">
+                <div class="border border-top-0">
+                  <div class="text-center pt-3">
+                    <img src="src/todolist.jpg" class="img-fluid border w-50" alt="todo">
+                    <div class="mt-2">
+                      <small class="badge text-bg-secondary">ReactJS</small>
+                      <small class="badge text-bg-secondary">Bootstrap</small>
+                    </div>
+                  </div>
+                  <div class="mt-3 px-3">
+                    App React + Bootstrap. Aplicación realizada durante mis prácticas en React y Bootstrap.<br />
+                    Aplicación que permite crear, editar y eliminar tareas. Guarda y recupera datos del "local storage".
+                  </div>
+                  <div class="m-3">
+                    <a
+                      href="https://github.com/andresfuentz/todo-app"
+                      target="_blank"
+                      class="btn btn-primary w-100 p-1"
+                    >
+                      Ver en GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/proyecto-final.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
